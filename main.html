@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="particles-toggle">
+        <label for="particles-switch">Particles</label>
+        <input type="checkbox" id="particles-switch" checked>
+      </div>
+    </nav>
+  </header>
+  <section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="intro">
+      <h1>Grok Portfolio test</h1>
+      <p>This was created fully by Grok 3.</p>
+    </div>
+  </section>
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>My GitHub Repository</h3>
+        <p>A collection of my work hosted on GitHub. Check it out!</p>
+        <a href="https://github.com/your-username/your-repo">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Description of another project.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill"><i class="fab fa-html5"></i> HTML5</div>
+      <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
+      <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Contact me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>Or find me on <a href="https://github.com/your-username">GitHub</a></p>
+  </section>
+  <footer>
+    <p>© 2025 Grok Portfolio</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.0.6/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
